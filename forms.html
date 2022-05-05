@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<style>
+    body{font-family: "DejaVu Serif Condensed";
+        display: block;
+        font-size: 30px;
+        float: bottom;
+        overflow: hidden;
+        text-decoration: greenyellow;
+        list-style-type: none;
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border: 10px;
+        border-spacing: 50px;
+        text-align: center}
+    </style>
+<body>
+<h2 style="color: white">Registration Form</h2>
+<form action="">
+    <label for="fname">firstname</label>
+    <input type="text"id="fname" placeholder="Enter First Name"><br>
+    <label for="lname">lastname</label>
+    <input type="text"id="lname" placeholder="Enter Second Name"><br>
+    <label for="DOR">Date of registration</label>
+    <input type="date"id="DOR"><br>
+    <select name="course" id="course">
+        <option value="Fullstack software">Fullstack</option>
+        <option value="python">Python</option>
+        <option value="javascript">Javascript</option>
+        <option value="Android">Android</option>
+    </select><br>
+    gender
+    <label for="male">Male</label>
+    <input type="radio"id="male" name="gender">
+    <label for="female">Female</label>
+    <input type="radio"id="female" name="gender">
+    <label for="others">Others</label>
+    <input type="radio"id="others" name="gender"><br>
+    <label for="email address">Barua pepe</label>
+    <input type="email"id="email address" placeholder="Enter Email"><br>
+    <label for="Password">password</label>
+    <input type="password"id="Password" placeholder="Enter password"><br>
+    <input type="submit" value="Register"><br>
+    <input type="file"id="Upload file" placeholder="Upload image"><br>
+</form>
+</body>
+</html>
